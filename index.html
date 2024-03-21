@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <h1 id="out"></h1>
+    </main>
+</body>
+</html>
+<script>
+    let out = document.getElementById("out");
+    put = 0
+    out.innerHTML = put
+
+    setInterval(() => {
+        put ++
+        out.innerHTML = put
+    }, 1000);
+</script>
